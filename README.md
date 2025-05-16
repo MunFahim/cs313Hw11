@@ -17,7 +17,7 @@ $ ld -m elf_i386 -o programName outputFileName.o
 
 ## Changing Input Data
  To change input data : open -> ```fahimhw11.asm``` -> change data -> recompile
-```cmd
+```asm
 1|...
 2| input: db 0x83,0x6A,0x88,0xDE,0x9A,0xC3,0x54,0x9A  ; change data in line 2 to your desired data
 3|...
