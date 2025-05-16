@@ -13,7 +13,7 @@ $ nasm -f elf32 -g -F dwarf -o outputFileName.o fahimhw11.asm
 ```cmd
 $ ld -m elf_i386 -o programName outputFileName.o
 ```
->programName : once again, you can choose your own programName but make sure they are consistent
+>programName : `once again, you can choose your own programName but make sure they are consistent`
 
 ## Changing Input Data
  To change input data : open -> ```fahimhw11.asm``` -> change data -> recompile
